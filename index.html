@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/queries.css">
+    <title>Les Films de Plain Air</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="bar-nav">
+            <ul class="main-nav">
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#actu">Actualités</a></li>
+                <li><a href="#project-movies">Films</a></li>
+                <li><a href="#info-reached">Réservation</a></li>
+            </ul>
+        </nav>
+
+        <div class="asso-text-box">
+            <h1>Les Films de Plein Air</h1>
+        </div>
+    </header>
+
+    <div id="actu">
+        <div class="news">
+            <img class="img-actu" src="/img/article_1.jpg" alt="nos actualités">
+            <div class="link-news">
+                <a href="#">Nos Actualités</a>
+            </div>
+
+        </div>
+        <div class="news">
+            <img class="img-actu" src="/img/article_2.jpg" alt="qui sommes nous">
+            <div class="link-news">
+                <a href="#">Qui sommes nous</a>
+            </div>
+        </div>
+        <div class="news">
+            <img class="img-actu" src="img/article_3.jpg" alt="prochaines dates">
+            <div class="link-news">
+                <a href="#">Prochaines Dates</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="project-movies">
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/drive.jpg" alt="Drive"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/leon.jpg" alt="Leon"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/madmax2.jpg" alt="Mad Max 2"></a>
+        </article>
+        <article>
+            <a href=""><img class="affiche" src="/img/newyork.jpg" alt="Escape from New-york"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/rocky.jpg" alt="Rocky"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/django.jpg" alt="Django Unchained"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/robocop.jpg" alt="Robocop"></a>
+        </article>
+        <article class="movies">
+            <a href=""><img class="affiche" src="/img/interstellar.jpg" alt="Interstellar"></a>
+        </article>
+    </div>
+
+    <div id="info-reached">
+        <div class="inscriptions">
+            <h2>Réservation</h2>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <label for="">Choisissez votre film :</label>
+            <select name="" id="film_select">
+                <option value="">Drive - 5 aout - 18h</option>
+                <option value="">Leon - 5 aout - 20h</option>
+                <option value="">Mad Max 2 - 6 aout - 18h</option>
+                <option value="">Escape from New-york - 6 aout - 20h</option>
+                <option value="">Rocky - 7 aout - 18h</option>
+                <option value="">Django Unchained - 7 aout - 20h</option>
+                <option value="">Robocop - 8 aout - 18h</option>
+                <option value="">Interstellar - 8 aout - 20h</option>
+            </select>
+            <div id="subscribe">
+                <input type="checkbox" id="newsletter">
+                <label for="newsletter">Voulez-vous être enregistrez à la newsletter ?</label>
+            </div>
+            <button type="submit" id="button">Je me pré-enregistre</button>
+        </div>
+        <div class="locations">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873738203499!2d2.306766315184758!3d48.87968347928956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1606109704478!5m2!1sfr!2sfr"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>

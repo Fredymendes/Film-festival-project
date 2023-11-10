@@ -1,0 +1,202 @@
+/*********************SETUP**********************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/**********************HEAD***********************/
+#home {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/title.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+.bar-nav {
+    overflow: hidden;
+    position: sticky;
+    box-shadow: 8px 1px 10px #999;
+    background-color: #fff;
+}
+
+.main-nav {
+    list-style: none;
+    padding-top: 15px;
+    padding-right: 15px;
+    height: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.asso-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', cursive;
+    border: 2px #fff solid;
+    font-style: italic;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/**********************BODY***********************/
+
+#actu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e69138;
+    justify-content: center;
+    box-shadow: 0 0 30px 0 #000;
+    padding-bottom: 15px;
+}
+
+.news {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.img-actu {
+    width: 300px;
+    box-shadow: 0 0 30px 0 black;
+}
+
+.link-news {
+    height: 45px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 #000;
+}
+
+.link-news,
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.link:hover {
+    background-color: #e69138;
+}
+
+.link-news,
+a:hover {
+    color: #fff;
+}
+
+.link-news:hover {
+    background-color: #e69138;
+    color: #fff;
+}
+
+#project-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.affiche {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+/*********************FOOTER*******************/
+#info-reached {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #e69138;
+    box-shadow: 0 0 30px 0 black;   
+}
+
+.inscriptions {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-top: 25px;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+
+.locations {
+    background-color: #fff;
+    margin-top: 25px;
+
+}
+
+iframe {
+    width: 500px;
+    height: 496px;
+}
+
+#film_select {
+    height: 45px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+[type="email"] {
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#subscribe {
+    margin-bottom: 1rem;
+}
+
+#button {
+    text-decoration: none;
+    background-color:#e69138;
+    color: #fff;
+    margin-top: 25px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
